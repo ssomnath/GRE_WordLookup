@@ -1,0 +1,125 @@
+Current Version: 5.27
+
+Bugs Fixed / Features added:
+
+Future:
+
+v 6.0 -----------------------
+1. Add package "vocabBuilder" using older data
+
+v 7.0 -----------------------
+1. Add more dictionaries:
+    http://www.yourdictionary.com/fatuous
+    http://www.ldoceonline.com/dictionary/reputed
+    http://nhd.heinle.com/Definition.aspx?word=fathead
+    http://lookwayup.com/lwu.exe/lwu/d?s=f&w=sedentry
+
+v 6.2 -----------------------
+1. Progress bar
+
+-----------------------------------------------------------------
+Version 6.0:
+1. First version of the Vocab Builder API being built.
+
+Version 5.5:
+1. Added CSS features to both html writers to make output prettier
+2. Made Backend static
+3. Cleaned up some bugs in Merriam webster
+4. Concept of "Word Lists" created.
+5. Removed textarea status box.
+
+Version 5.27:
+1. Added a cheesy textarea status box
+
+Version 5.26:
+1. Fixed the merriam Webster null pointer problem in Thesaurus
+2. Fixed the nameless start button problem
+
+Version 5.25:
+1. Fixed the Merriam Webster thesaurus
+
+Version 5.1:
+1. Added new dictionary - Dictionary-Of-Defenitions
+2. Gave a new slightly better front end
+3. Added new Dictionary manager
+4. Changed code in UI and Backend accordingly
+5. Fixed Merriam Webster's broken dictionary
+
+Version 5.0:
+1. New, improved front end replaces defunct SwingFront
+2. Completely re-written Backend.
+3. File writers now don't modify the given output filepaths.
+4. Fixed some bugs in the XML Parser.
+5. Patched up the applet although its almost never going to be used
+4. Written file is opened as soon as it is written
+
+Version 4.98:
+1. Removed any dependencies of the Excel features
+2. Removed all jar files!
+
+Version 4.95:
+1. Object Oriented design for the Html writers
+2. XML writer written and tested
+3. XML parser written and tested
+
+Version 4.9:
+1. Fixed the Merriam Webster thesaurus "see" problem.
+2. Tabular Html writer written
+
+Version 4.8:
+1. Fixed the Merriam Webster server contacting problem! Other bugs not checked
+Credits to http://www.rexswain.com/httpview.html
+
+Version 4.7:
+1. Removed the SWT front end and the SWT jar file
+2. Replaced with AWT front end
+3. Allows overriding the name of the output file
+
+Version 4.6
+1. Packaged entire code according to rubrics.
+
+
+Version 4.5:
+1. Applet front end created.
+
+Version 4.25:
+1. ExcelWriter has added intelligence in printing thesaurus entries:
+	it prints 2 synonyms instead of the entire meaning,
+2. MerriamWebster now takes the first suggestion and finds the meaning 
+	and puts it before the suggestion in case of spelling error.
+
+Version 4.20:
+1. Writing site used and version for outputfiles.
+2. ExcelWriter now creates a new excel file for output. 
+
+Version 4.00:
+1. Allowed MerriamWebster to send in suggestions in case of spelling errors disguised
+	as DictionaryEntry objects. Hyperlinks were changed accordingly.
+2. Fixed problem with multithreading override in WordFinder.
+
+Version 3.75:
+1. WordWeb object cleaned up.
+2. Abstract class WebDictionary created. MeriamWebster and WordWeb extend from it.
+3. MeriamWebster and WordWeb now have to implment the WebFunctionality class.
+4. WordFinder and Backend now modified to accomdoate changes
+
+Version 3.30:
+1. Added Headers to html
+2. Fixed problem with missing entries.
+3. Allowed LinearFileReader to read .txt and .doc files now
+
+Version 3.00:
+1. ExcelFileWriter written, half tested - beta version.
+2. Gave whole program OO feel - split logic into multiple files.
+3. Set up front end.
+
+Version 2.20:
+1. Cleaned up html tags now while writing.
+2. Removed all previous tags.
+
+Version 2.00:
+1. Capable of splicing only required portion of information. 
+2. Used Multithreading for the first time.
+
+Version 1.00:
+1. Just 3 source files including one dictionary. Too slow but its doing the job.
